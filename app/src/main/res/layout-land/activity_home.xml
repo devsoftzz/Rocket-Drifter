@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:background="#0E172C">
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_space"/>
+
+    <ImageView
+        android:id="@+id/home1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_space"/>
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_marginTop="24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fugaz_one"
+                android:text="Rocket Drifter"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textSize="36dp" />
+
+            <Button
+                android:id="@+id/ply_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/btn_bg"
+                android:fontFamily="@font/fugaz_one"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:text="Play"
+                android:textColor="#fff"
+                android:textSize="24sp" />
+            <ImageView
+                android:id="@+id/loading"
+                android:layout_marginTop="24dp"
+                android:visibility="invisible"
+                android:paddingStart="24dp"
+                android:layout_width="118dp"
+                android:layout_height="60dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/rocket"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:text="Created By : Devsoftzz ♥"
+            android:textColor="#fff"
+            android:paddingBottom="4dp"/>
+    </FrameLayout>
+</RelativeLayout>
