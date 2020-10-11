@@ -1,4 +1,3 @@
-# Rocket_Drifter
+# Rocket-Drifter
 
-Android Game Created With Java.
-Check Out => https://play.google.com/store/apps/details?id=com.devsoft.as&hl=en
+[Download](https://play.google.com/store/apps/details?id=com.devsoft.as) (Android)
